@@ -4,5 +4,9 @@
   "image": "heroku/ruby",
   "repository": "https://github.com/heroku/ruby-getting-started",
   "keywords": ["ruby", "rails" ],
-  "addons": [ "heroku-postgresql" ]
+  "addons": [ "heroku-postgresql" ],
+  "env": {
+    "RACK_ENV": "review",
+    "RAILS_ENV": "review"
+  }
 }
